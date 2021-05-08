@@ -1,0 +1,120 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-color: orange;
+    position: relative;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('images/kmp.png');
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
+
+.gameDiv {
+    margin: 0 auto;  
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+#columnSpot {
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+  
+
+#row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.main{
+    padding: 5px;
+}
+
+.title{
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+}
+
+.startButton {
+    margin: 0 auto;
+    display: block;
+}
+
+.dayInHistory {
+    background-color: lightpink;
+}
+
+.child{
+    flex: 1;
+    padding: 2px;
+}
+
+#root {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.child:first-child {
+    margin-right: 20px;
+} 
+
+.info{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.spotify {
+    text-align: center;
+}
+
+.instructions {
+    text-align: center;
+}
+
+#userInfo {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.spotifyImg {
+    padding-left: 100px;
+}
+.img-thumbnail{
+    border-color: #1DB954;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.score {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.colorPicker {
+    padding-left: 160px;
+}
+
+.instructionButton {
+    margin: 0 auto;
+    display: block;
+}
